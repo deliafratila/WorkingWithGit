@@ -259,7 +259,7 @@
                         <InArgument x:TypeArguments="x:String" x:Key="Status">[CurrentRow.Item("Status").ToString]</InArgument>
                       </ui:AddQueueItem.ItemInformation>
                     </ui:AddQueueItem>
-                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="354,166" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Hello!!&quot;]" />
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="354,166" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Warn" Message="[&quot;Hello agaaaain!!&quot;]" />
                   </Sequence>
                 </ActivityAction>
               </ui:ForEachRow.Body>
